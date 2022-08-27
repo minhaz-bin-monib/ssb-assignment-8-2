@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'DM Serif Display', serif;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'DM Sans', sans-serif; */
+
+h1, h2, h3, h4, h5, h6, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav .nav-link {
+   
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    color: #011c14;
+}
+
+.navbar-brand {
+    /* padding-top: 0.3125rem; */
+    /* padding-bottom: 0.3125rem; */
+    margin-right: 1rem;
+    /* font-size: 1.25rem; */
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    color: #011c14;
+}
+.banner-part{
+
+min-height: 85vh;
+background-color: #F1F5F4;
+}
+
+.banner-part h5{
+    font-size: 15px;
+    color: rgb(103 104 103 / 95%);
+    font-weight: 500;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 10px;
+}
+
+.banner-part h1{
+    
+font-size: 54px;
+    
+color: #011c14;
+    
+font-family: 'DM Serif Display', serif;
+    
+font-weight: 500;
+}
+
+.banner-part p{
+    
+font-size: 15px;
+    
+color: rgba(103, 104, 103, 0.95);
+    
+font-weight: 500;
+    
+font-family: 'DM Sans', sans-serif;
+    
+margin-top: 20px;
+}
+.banner-individual-content{
+    
+display: flex;
+    
+/* justify-content: space-evenly; */
+    
+align-items: center;
+}
+
+.banner-part img{
+    
+width: 90%;
+}
+
+.btn-cart{
+    
+background: #586f69;
+    
+border-radius: 0;
+    
+padding-top: 10px;
+    
+padding-right: 25px;
+    
+padding-bottom: 10px;
+    
+padding-left: 25px;
+    
+font-size: 16px;
+    
+color: #fff;
+    
+font-weight: 700;
+    
+text-transform: uppercase;
+    
+font-family: 'DM Sans', sans-serif;
+}
+
+.btn-cart:hover{
+    background-color: #7a9d91;
+    color: #fff;
+}
+
+.banner-content{padding-top: 50px;}
+
+.deals{
+
+}
+
+.deals h5{
+    
+text-align: center;
+    
+font-weight: 500;
+    
+color: rgba(103, 104, 103, 0.95);
+    
+font-family: 'DM Serif Display', serif;
+    
+margin-top: 150px;
+font-size: 18px;
+}
+
+.deals h1{
+    
+text-align: center;
+    
+font-size: 42px;
+    
+font-weight: 500;
+    
+font-family: 'DM Serif Display', serif;
+    
+margin-bottom: 50px;
+    
+color: #011c14;
+}
+.align{
+
+display: flex;
+
+align-items: center;
+}
+
+.big-pic{
+
+}
+
+.mid-pic{
+
+}
+.card-content{
+
+}
+
+.card-content .p{
+
+font-family: 'DM Sans', sans-serif;
+
+font-weight: 500;
+
+color: rgba(103, 104, 103, 0.95);
+
+font-size: 12.75px;
+}
+
+.card-content .h{
+
+font-family: 'DM Serif Display', serif;
+
+font-size: 22px;
+
+font-weight: 500;
+
+color: #011c14;
+}
+
+.card-content .d{
+    
+font-size: 13.5px;
+    
+font-weight: 700;
+    
+font-family: 'DM Sans', sans-serif;
+    
+color: rgba(103, 104, 103, 0.95);
+}
+
+
+.popular-plants{
+
+}
+
+.popular-plants h5{
+    text-align: center;
+    
+font-weight: 500;
+    
+color: rgba(103, 104, 103, 0.95);
+    
+font-family: 'DM Serif Display', serif;
+    
+margin-top: 150px;
+font-size: 18px;
+
+}
+
+.popular-plants h1{
+    text-align: center;
+    
+font-size: 42px;
+    
+font-weight: 500;
+    
+font-family: 'DM Serif Display', serif;
+    
+margin-bottom: 50px;
+    
+color: #011c14;
+
+}
+
+
+.plants-content{
+
+}
+
+.review{
+
+text-align: center;
+}
+
+.review img{
+    
+width: 140px;
+    
+display: flex;
+    
+text-align: center;
+    
+align-items: center;
+    
+justify-content: center;
+    
+margin-left: 500px;
+    
+margin-top: 200px;
+}
+
+.review h1{
+    
+font-size: 32px;
+    
+font-weight: 500;
+    
+font-family: 'DM Serif Display', serif;
+    
+margin-top: 40px;
+}
+
+.review p{
+    
+margin-top: 20px;
+    
+font-family: 'DM Serif Display', serif;
+    
+color: rgba(103, 104, 103, 0.95);
+    
+font-size: 15px;
+    
+margin-bottom: 100px;
+}
+
+.reiview-content{
+
+}
+
+.review-pic{
+    
+text-align: center;
+}
+
+.gift{
+
+/* height: 739px; */
+
+/* background: azure; */
+}
+
+.gift h1{
+    
+font-size: 42px;
+    
+font-weight: 500;
+    
+font-family: 'DM Serif Display', serif;
+    
+color: #011c14;
+    
+margin-bottom: 15px;
+}
+
+.gift p{
+    
+font-size: 15px;
+    
+font-family: 'DM Sans', sans-serif;
+    
+font-weight: 500;
+    
+color: rgba(103, 104, 103, 0.95);
+    
+margin-bottom: 30px;
+}
+
+.gift img{
+    
+}
+
+.gift-content{
+    
+display: flex;
+    
+align-items: center;
+    
+height: 900px;
+    
+background: azure;
+}
+
+
+footer{
+    background-color: #f1f5f4;
+    color: #FFFFFF;
+    padding-top: 55px;
+}
+
+footer p{
+
+font-weight: 400;
+
+font-size: 16px;
+
+line-height: 30px;
+/* or 188% */
+
+color: #586f69;
+}
+
+footer ul{
+
+}
+
+footer ul li{
+
+list-style: none;
+
+font-weight: 300;
+
+font-size: 16px;
+
+line-height: 30px;
+/* or 188% */
+
+color: #586f69;
+}
+
+footer ul li .bold{
+    
+font-weight: 700;
+}
+
+
+.copyright{
+
+font-weight: 400;
+
+font-size: 16px;
+
+line-height: 30px;
+/* identical to box height, or 188% */
+
+color: #CDCDCD;
+
+text-align: center;
+
+padding-top: 60px;
+}
+
+.copyright p{
+
+padding-bottom: 15px;
+
+font-size: 16px;
+
+font-weight: 100;
+}
+
+
+.footer-control{
+    
+/* display: flex; */
+    
+/* align-items: center; */
+    
+padding-left: 100px;
+}
+
+.img-2{
+
+margin-bottom: 15px;
+}
+
+.mrgn{
+    
+margin-top: 1px;
+}
