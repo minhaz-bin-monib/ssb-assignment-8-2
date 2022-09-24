@@ -1,0 +1,13 @@
+@media(max-width:575px){
+    .banner-individual-content {
+        
+        flex-direction: column-reverse;
+    }
+
+    .text-c{
+        text-align: center;
+    }
+    .nav-link{
+        text-align: center;
+    }
+}

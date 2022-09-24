@@ -30,6 +30,16 @@ h1, h2, h3, h4, h5, h6, ul, li {
     font-family: 'DM Sans', sans-serif;
     color: #011c14;
 }
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border:none;
+}
+.navbar-light .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
 .banner-part{
 
 min-height: 85vh;
@@ -109,6 +119,7 @@ font-family: 'DM Sans', sans-serif;
 .btn-cart:hover{
     background-color: #7a9d91;
     color: #fff;
+    transition: .5s all ease-in-out;
 }
 
 .banner-content{padding-top: 50px;}
@@ -240,21 +251,11 @@ color: #011c14;
 text-align: center;
 }
 
-.review img{
-    
-width: 140px;
-    
-display: flex;
-    
-text-align: center;
-    
-align-items: center;
-    
-justify-content: center;
-    
-margin-left: 500px;
-    
-margin-top: 200px;
+.elipse-img{
+
+}
+.elipse-img img{
+    width: 10%;
 }
 
 .review h1{
@@ -283,6 +284,7 @@ margin-bottom: 100px;
 
 .reiview-content{
 
+margin-top: 150px;
 }
 
 .review-pic{
