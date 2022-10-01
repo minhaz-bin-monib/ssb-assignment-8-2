@@ -427,3 +427,8 @@ margin-bottom: 15px;
     
 margin-top: 1px;
 }
+
+footer ul li:hover{
+    margin-left: 5px;
+    transition: .5s all ease-in-out;
+}
